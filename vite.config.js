@@ -1,5 +1,5 @@
 export default {
-    root: 'src/',
+    root: './',
     publicDir: '../static/',
     base: './',
 }

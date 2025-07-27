@@ -11,14 +11,14 @@ const scene = new THREE.Scene();
 // texture loaders
 const textureLoader = new THREE.TextureLoader();
 const cubeTextureLoader = new THREE.CubeTextureLoader();
-cubeTextureLoader.setPath('/textures/cubeMap/');
+cubeTextureLoader.setPath('../static/textures/cubeMap/');
 
-const sunTexture = textureLoader.load('/textures/2k_sun.jpg');
-const earthTexture = textureLoader.load('/textures/2k_earth_daymap.jpg');
-const mercuryTexture = textureLoader.load('/textures/2k_mercury.jpg');
-const marsTexture = textureLoader.load('/textures/2k_mars.jpg');
-const venusTexture = textureLoader.load('/textures/2k_venus_surface.jpg');
-const moonTexture = textureLoader.load('/textures/2k_moon.jpg');
+const sunTexture = textureLoader.load('../static/textures/2k_sun.jpg');
+const earthTexture = textureLoader.load('../static/textures/2k_earth_daymap.jpg');
+const mercuryTexture = textureLoader.load('../static/textures/2k_mercury.jpg');
+const marsTexture = textureLoader.load('../static/textures/2k_mars.jpg');
+const venusTexture = textureLoader.load('../static/textures/2k_venus_surface.jpg');
+const moonTexture = textureLoader.load('../static/textures/2k_moon.jpg');
 
 const backgroundCubemap = cubeTextureLoader.load([
   'px.png', 'nx.png',
